@@ -1,0 +1,454 @@
+@font-face {
+    font-family: "My Custom Font";
+    src: url(../fonts/NuevaStd-Cond.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "My Custom Font2";
+    src: url(../fonts/FRADM.TTF) format("truetype");
+}
+
+@font-face {
+    font-family: "My Custom Font3";
+    src: url(../fonts/calibri.ttf) format("truetype");
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header-area {}
+
+.main-header-area {}
+
+nav {
+    font-size: 20px;
+    background-color: #31261B;
+}
+
+.main-header {
+    background: url(../images/banner.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.menu-header {
+    background: url(../images/banner/bradcam2.png) center no-repeat;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+
+.menu-overly {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.about-header {
+    height: 80vh;
+    position: relative;
+    background: url(../images/banner/bradcam.png)center no-repeat;
+    background-size: cover;
+}
+
+
+/* about page */
+
+.mainAbo {
+    padding-top: 70px;
+}
+
+.mainAbo h3 {
+    font-weight: 700;
+    font-size: 35px;
+    font-family: "My Custom Font2";
+    line-height: 4rem;
+}
+
+.mainAbo p {
+    /* font-family: "My Custom Font3"; */
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.header-overly {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.header-content,
+.menu-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-content h1 {
+    font-family: "My Custom Font";
+}
+
+.header-content .box-btn1 {
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+/* Start About Section */
+
+.about {
+    position: relative;
+    background-color: #FFFBF5;
+    padding-top: 60px;
+    padding-bottom: 320px;
+}
+
+.about .icon-1 {
+    position: absolute;
+    top: 7%;
+    left: 4%;
+}
+
+.about .icon-2 {
+    position: absolute;
+    bottom: -12%;
+    left: 6%;
+}
+
+.about .icon-3 {
+    position: absolute;
+    right: 4%;
+    bottom: 10%;
+}
+
+.about h1 {
+    font-family: "My Custom Font";
+    border-bottom: 3px solid #DB9A64;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.about ul li span {
+    color: #DB9A64;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.about .img-data {
+    position: relative;
+}
+
+.img-data .big-img {
+    padding-left: 80px;
+    border-radius: 20px;
+}
+
+.img-data .big-img img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.img-data .small-img {
+    position: absolute;
+    margin-top: -170px;
+    border: 10px solid #FFF;
+    border-radius: 20px;
+}
+
+.img-data .small-img img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/* strat delecious*/
+
+.delicious {
+    padding-top: 150px;
+}
+
+.delicious .nav-tabs .nav-link {
+    border: 0px;
+    margin-bottom: 0px;
+}
+
+.delicious .nav-tabs .nav-link :active {
+    color: #DB9A64;
+
+}
+
+.delicious h3 {
+    color: #001D38;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.table-menu {
+    border-bottom: 1px solid #E5E8EA;
+}
+.table-menu img{
+
+}
+
+.table-menu i {
+    color: #DB9A64;
+}
+
+.table-menu .single-delicious {
+    margin-top: 50px;
+}
+
+.table-menu .single-delicious .thumb {
+    border-radius: 10px;
+}
+
+.table-menu .single-delicious .thumb img {
+    border-radius: 10px;
+}
+
+.table-menu .single-delicious .info {
+    padding-left: 28px;
+}
+
+.table-menu .single-delicious .info h3 {
+    font-family: 'My Custom Font2', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #001D38;
+}
+
+.table-menu .single-delicious .info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.table-menu .single-delicious .info span {
+    display: block;
+    font-weight: 400;
+    font-size: 26px;
+    color: #DB9A64;
+}
+
+
+/* Start Testmonials */
+
+.testmonials {
+    background: url("../images/testimonial/bg.png") center no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    padding: 120px 0;
+}
+
+.testmonials p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #DB9A64;
+}
+
+.testmonials h3 {
+    font-weight: 600;
+    font-size: 60px;
+    font-family: "My Custom Font";
+}
+
+.testmonials .single-testmonial .auther-option {
+    background-color: #FFF;
+    border: 1px solid #DB9A64;
+    padding: 15px 5px;
+    border-radius: 10px;
+}
+
+.testmonials .single-testmonial .auther-option p {
+    color: #596672;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.testmonials .single-testmonial .test-author {}
+
+.testmonials .single-testmonial .test-author .thumb {
+    width: 70px;
+    height: 70px;
+}
+
+.testmonials .single-testmonial .test-author .name h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #001D38;
+}
+
+.testmonials .single-testmonial .test-author .name a {
+    color: #DB9A64;
+}
+
+
+/* Start Gallary Area */
+
+.gallary-area {}
+
+.gallary-area h3 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.gallary-area .single-gallary {
+    height: 500px;
+    overflow: hidden;
+    border-right: 8px solid #FFF;
+    border-top: 8px solid #FFF;
+}
+
+.gallary-area .single-gallary:hover img {
+    transform: scale(1.1, 1.1);
+    transition: 0.3s ease-in-out;
+    opacity: 0.7;
+}
+
+.gallary-area .single-gallary img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Start Reservation*/
+
+.reservation-area {
+    position: relative;
+    padding-top: 140px;
+    padding-bottom: 130px;
+    overflow: hidden;
+}
+
+.reservation-area .icon-1 {
+    position: absolute;
+    top: 2%;
+    right: 4%;
+}
+
+.reservation-area .icon-2 {
+    position: absolute;
+    bottom: -12%;
+    right: 6%;
+}
+
+.reservation-area .icon-3 {
+    position: absolute;
+    left: 4%;
+    bottom: 6%;
+}
+
+.reservation-area h3 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.reservation-area .book-form {
+    background-color: #DB9A64;
+    padding: 34px 40px;
+    margin-bottom: 50px;
+}
+
+.reservation-area .book-form h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.reservation-area .book-form .icon h4 {
+    font-weight: 300;
+    color: #FFF;
+}
+
+.reservation-area .book-form .icon p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
+    margin-bottom: 0px;
+}
+
+
+/* Start Footer */
+
+footer {
+    background-color: #1A0D01;
+    z-index: 9999999;
+    color: #FFF;
+    padding-bottom: 50px;
+}
+
+footer .footer-content {
+    padding-top: 145px;
+    padding-bottom: 130px;
+    border-bottom: 2px solid #31261B;
+}
+
+footer a,
+p {
+    color: #919191;
+}
+
+footer h3 {
+    color: #DB9A64;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+footer form {
+    position: relative;
+}
+
+footer button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+footer hr {
+    color: #FFF;
+}
+
+
+/* owlCarousal */
+
+#owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/*contact page */
+
+.contact {
+    padding: 70px;
+}
+
+.contact .single-Contact-info h3 {
+    font-size: 18px;
+}
+
+.contact .single-Contact-info p {
+    color: #8a8a8a;
+}
